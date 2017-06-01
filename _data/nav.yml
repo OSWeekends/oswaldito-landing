@@ -1,2 +1,4 @@
-- label: Blog
-  url: /blog/
+- label: ¿Qué es Oswaldito?
+  url: /que-es-oswaldito/
+- label: Documentación
+  url: /documentacion/
