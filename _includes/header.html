@@ -1,0 +1,9 @@
+<header>
+  <nav>
+    <ul>
+      {% for item in site.data.nav %}
+      <li {% if page.url == item.url %}class="is-active"{% endif %}><a href="{{ item.url }}">{{ item.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
